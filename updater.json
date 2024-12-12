@@ -1,10 +1,10 @@
 {
   "version": "1.1.0",
   "notes": "New features and improvements:\n- Added auto-update functionality\n- Improved profile editor integration\n- Added rounded corners to the app window",
-  "pub_date": "2024-12-11T19:38:39-05:00",
+  "pub_date": "2024-12-11T19:47:12-05:00",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEMxOEYzOEM1QUNERUMzNEIKUldSTHc5NnN4VGlQd2NuZ1lTdFdEbXRnalErZlk1aXJNazJ2dGY4WVpnRlRMZlQwME9YdlhvY1UK",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHJzaWduIGVuY3J5cHRlZCBzZWNyZXQga2V5ClJXUlRZMEl5T3luQzVKYTRZeWNTT3VUNGNxbHpXQ3huTFRYNjdMWURIZEtldHJSUFdCZ0FBQkFBQUFBQUFBQUFBQUlBQUFBQS9sVHpoUUtYM0swTmxmaFBPalFPUmlSeFdCbmRwNGpDVEpPck85MndVYU9nQ2k4Z28xVGZUSUhnRW1tVU4vYUVrZTUva3B5Ny84ZWFYZlAvWUJSbjBoT3dqUkpNOXRhR3VySkNabkU3SWQ4V0d0dXdyaXFhdmxsd0ZRRCtZM2ZXVEkwUTd1d1Bjczg9",
       "url": "https://github.com/XxYOSHIIPRxX/3DXONE/releases/download/1.1.0/3dxone_0.1.0_x64-setup.nsis.zip"
     }
   }
