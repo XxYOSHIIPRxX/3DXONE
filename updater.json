@@ -5,7 +5,7 @@
   "platforms": {
     "windows-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEMxOEYzOEM1QUNERUMzNEIKUldSTHc5NnN4VGlQd2NuZ1lTdFdEbXRnalErZlk1aXJNazJ2dGY4WVpnRlRMZlQwME9YdlhvY1UK",
-      "url": "https://github.com/XxYOSHIIPRxX/3DXONE/releases/download/v1.1.0/3dxone_1.1.0_x64_en-US.msi.zip"
+      "url": "https://github.com/XxYOSHIIPRxX/3DXONE/releases/download/v1.1.0/3dxone_0.1.0_x64-setup.nsis"
     }
   }
 }
