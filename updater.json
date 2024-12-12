@@ -1,11 +1,11 @@
 {
   "version": "1.1.0",
   "notes": "New features and improvements:\n- Added auto-update functionality\n- Improved profile editor integration\n- Added rounded corners to the app window",
-  "pub_date": "2024-12-11T17:58:16-05:00",
+  "pub_date": "2024-12-11T19:02:30-05:00",
   "platforms": {
     "windows-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEMxOEYzOEM1QUNERUMzNEIKUldSTHc5NnN4VGlQd2NuZ1lTdFdEbXRnalErZlk1aXJNazJ2dGY4WVpnRlRMZlQwME9YdlhvY1UK",
-      "url": "https://github.com/XxYOSHIIPRxX/3DXONE/releases/download/v1.1.0/3dxone_1.1.0_x64-setup.exe"
+      "url": "https://github.com/XxYOSHIIPRxX/3DXONE/releases/download/v1.1.0/3dxone_1.1.0_x64_en-US.msi.zip"
     }
   }
 }
