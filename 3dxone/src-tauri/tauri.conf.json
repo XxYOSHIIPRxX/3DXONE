@@ -1,0 +1,114 @@
+{
+  "$schema": "../node_modules/@tauri-apps/cli/schema.json",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "beforeBuildCommand": "npm run build",
+    "devPath": "http://localhost:1420",
+    "distDir": "../dist",
+    "withGlobalTauri": false
+  },
+  "package": {
+    "productName": "3DXOne",
+    "version": "1.0.3"
+  },
+  "tauri": {
+    "allowlist": {
+      "all": false,
+      "shell": {
+        "all": false,
+        "open": true
+      },
+      "window": {
+        "all": false,
+        "close": true,
+        "hide": true,
+        "show": true,
+        "minimize": true,
+        "unminimize": true,
+        "setDecorations": true,
+        "setAlwaysOnTop": true,
+        "setFocus": true,
+        "startDragging": true
+      },
+      "globalShortcut": {
+        "all": true
+      },
+      "http": {
+        "all": false,
+        "request": true,
+        "scope": [
+          "https://threedxone-news.onrender.com/*",
+          "https://partner1.com/*",
+          "https://partner2.com/*",
+          "https://partner3.com/*",
+          "https://i.postimg.cc/*",
+          "https://discordapp.com/*",
+          "https://3dxtools.com/*",
+          "https://store.3dxchat.com/*",
+          "https://sharing.3dxchat.com/*",
+          "https://3dsmodz.com/*",
+          "https://discord.gg/*",
+          "https://bunnybot.web.app/*",
+          "https://status.3dxchat.com/*",
+          "https://www.3dxchatwiki.com/*",
+          "https://status.3dxchat.net/*",
+          "https://img.icons8.com/*"
+        ]
+      }
+    },
+    "bundle": {
+      "active": true,
+      "targets": "all",
+      "identifier": "com.3dxone.app",
+      "publisher": "3DXOne",
+      "icon": [
+        "icons/32x32.png",
+        "icons/128x128.png",
+        "icons/128x128@2x.png",
+        "icons/icon.ico"
+      ],
+      "resources": [],
+      "copyright": " 2024 3DXOne",
+      "category": "Utility",
+      "shortDescription": "3DXOne News and Events",
+      "longDescription": "Stay updated with the latest news and events from the 3DXOne community",
+      "windows": {
+        "wix": {
+          "language": "en-US"
+        },
+        "webviewInstallMode": {
+          "type": "downloadBootstrapper"
+        },
+        "digestAlgorithm": "sha256",
+        "timestampUrl": "http://timestamp.digicert.com"
+      }
+    },
+    "security": {
+      "csp": "default-src 'self'; connect-src 'self' https://threedxone-news.onrender.com https://*.3dxchat.com https://*.discordapp.com https://*.web.app https://*.postimg.cc https://*.icons8.com; img-src 'self' data: https: http:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; frame-src 'self' https://www.3dxchatwiki.com https://status.3dxchat.com",
+      "dangerousRemoteDomainIpcAccess": [],
+      "freezePrototype": true
+    },
+    "updater": {
+      "active": true,
+      "endpoints": [
+        "https://raw.githubusercontent.com/YOUR_USERNAME/3dxone10/main/latest.json"
+      ],
+      "dialog": true,
+      "pubkey": ""
+    },
+    "windows": [
+      {
+        "fullscreen": false,
+        "height": 975,
+        "width": 1830,
+        "resizable": true,
+        "title": "3DXOne",
+        "center": true,
+        "decorations": false,
+        "transparent": true,
+        "alwaysOnTop": false,
+        "focus": true
+      }
+    ]
+  }
+}

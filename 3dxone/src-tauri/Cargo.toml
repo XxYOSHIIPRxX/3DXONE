@@ -1,0 +1,36 @@
+[package]
+name = "app"
+version = "0.1.0"
+description = "3DXOne Overlay Application"
+authors = ["you"]
+license = ""
+repository = ""
+edition = "2021"
+rust-version = "1.60"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "app_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "1.5.0", features = [] }
+
+[dependencies]
+serde_json = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_repr = "0.1"
+log = "0.4"
+tauri = { version = "1.5.0", features = [ "window-start-dragging", "window-set-focus", "window-close", "window-show", "window-hide", "window-set-decorations", "window-minimize", "window-unminimize", "http-request", "window-set-always-on-top", "global-shortcut-all", "shell-open"] }
+tokio = { version = "1.0", features = ["full"] }
+http = "0.2"
+reqwest = { version = "0.11", features = ["json"] }
+url = "2.3"
+semver = "1.0"
+thiserror = "1.0"
+windows = { version = "0.48", features = ["Win32_Foundation"] }
+
+[features]
+default = ["custom-protocol"]
+custom-protocol = ["tauri/custom-protocol"]
